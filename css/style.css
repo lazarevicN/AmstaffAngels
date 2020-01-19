@@ -1,0 +1,243 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+ul {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	color:#336aa5;
+}
+header {
+	width:100%;
+	height:80px;
+	position:fixed;
+	top:0px;
+	background-color:white;
+	border-top:3px solid black;
+	border-bottom:3px solid black;
+	z-index:1;
+}
+main {
+	width:100%;
+	background-image:linear-gradient(white, #120121);
+	display:flex;
+	justify-content:center;
+}
+.centriraj {
+	width:80%;
+	margin:0px auto;
+}
+.cistac {
+	clear:both;
+}
+#logo {
+	position:relative;
+	animation:animacija 3s;
+}
+@keyframes animacija {
+	0%  {left:-500px;}
+	100% {left:0px;}
+}
+#logo img {
+	float:left;
+	margin-left:50px;
+	margin-top:7px;
+	border:2px solid black;
+	border-radius:10px 0px 10px;
+}
+nav {
+	float:right;
+	margin-right:50px;
+}
+nav ul {
+	padding-top:30px;
+}
+nav ul li {
+	display:inline-block;
+	margin-right:25px;
+}
+nav ul li a {
+	padding:10px;
+	font-family:Prosto One;
+}
+nav ul li a:hover {
+	border-bottom:2px solid blue;
+}
+#dobrodosli {
+	width:100%;
+	height:580px;
+	background-image:url("../img/dobrodoslibg1.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	float:left;
+	margin-top:85px;
+	border-bottom:3px solid black;
+	position:relative;
+}
+
+#glArtikal {
+	float:left;
+	background-color:#16011c;
+	width:100%;
+	border-left:3px solid black;
+	border-right:3px solid black;
+	border-bottom:3px solid black;
+}
+.ponovi {
+	display:flex;
+	justify-content:space-around;
+}
+#naslov {
+	padding-top:60px;
+	padding-left:70px;
+}
+.tekst {
+	width:50%;
+	padding-bottom:50px;
+}
+#naslov2 {
+	padding-top:40px;
+}
+.tekst1 {
+	width:80%;
+	padding-bottom:50px;
+}
+.naslov3 {
+	padding-top:120px;
+}
+h1 {	
+	margin-top:60px;
+	margin-left:300px;
+	font-family:Bangers;
+	font-size:70px;
+	color:#c67a3f;
+	position:absolute;
+}
+
+h2 {
+	font-size:50px;
+	font-family:Titan One;
+	color:#828282;
+	font-style:italic;
+	padding-left:100px;
+}
+p {
+	font-family:Patrick Hand;
+	font-size:24px;
+	color:#828282;
+	padding-top:22px;
+}
+footer {
+	width:100%;
+	background-color:#120121;
+	float:left;
+	border-bottom:3px solid black;
+}
+.pgf-futer {
+	font-family:Patrick Hand;
+	font-size:30px;
+	text-align:center;
+	padding:0px;
+	
+}
+footer ul {
+	text-align:center;
+}
+footer ul li {
+	display:inline-block;
+}
+footer ul li i {
+	color:white;
+	font-size:40px;
+	padding:10px;
+	
+}
+.amStaffSlika {
+	width:35%;
+	margin-bottom:50px;
+	box-shadow:5px 5px 5px #969499;
+}
+.amStaffSlika:hover {
+	transform:rotate(5deg);
+}
+span {
+	font-style:italic;
+	font-weight:bold;
+}
+.nasiPsi {
+	border-radius:10px;
+}
+.nasiPsi:hover {
+	transform:scale(1.25,1);
+}
+.slikePasa {
+	display:flex;
+	justify-content:space-around;
+	margin-top:40px;
+}
+.slikePasa figure {
+	padding-bottom:50px;
+}
+.slikePasa figcaption {
+	background-color:rgba(255,255,255,0.1);
+	text-align:center;
+	border-radius:3px;
+	font-size:30px;
+	font-family:Patrick Hand;
+	color:#828282;
+}
+.txCentar {
+	text-align:center;
+}
+#slikaAutor {
+	margin-bottom:50px;
+	border-radius:15px;
+}
+#mapa {
+	width:35%;
+	margin-bottom:50px;
+}
+#forma {
+	float:left;
+	padding-left:35px;
+	width:100%;
+}
+table {
+	background-color: rgba(255,255,255,0.1);
+	padding:30px;
+	box-sizing:box-shadow;
+	box-shadow:3px 3px 3px #46064f;
+	border-radius:20px 0px 20px 0px;
+}
+.uredi {
+	font-family:Patrick Hand;
+	font-size:30px;
+	color:#828282;
+}
+.txtInput, #txtArea {
+	margin:10px;
+	border-radius:4px 0px 4px 0px;
+	width:250px;
+	padding:7px;
+	outline:none;
+}
+#txtArea {
+	height:70px;
+}
+.txtInput:focus, #txtArea:focus {
+	border:3px solid #61407a;
+}
+#uredi1 {
+	padding:7px;
+	margin:10px;
+	float:right;
+	border-radius:4px 0px 4px 0px;
+	background-color:#16011c;
+	color:#828282;
+	font-family:Patrick Hand;
+	font-size:20px;
+	box-shadow:3px 3px 3px #969499;
+}
+
